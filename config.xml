@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="com.name.app" version="0.0.1">
+    <name>Name</name>
+    <description></description>
+    <access origin="*"/>
+    <content src="index.html"/>
+</widget>

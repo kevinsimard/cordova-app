@@ -1,4 +1,6 @@
 {
+    "cordovaPlugins": [],
+    "cordovaPlatforms": ["ios", "android"],
     "scripts": {
         "test": "gulp test --env=testing"
     },

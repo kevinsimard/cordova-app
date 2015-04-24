@@ -5,17 +5,10 @@
         .config(config);
 
     config.$inject = [
-        '$locationProvider',
         '$urlRouterProvider'
     ];
 
-    function config($locationProvider, $urlRouterProvider) {
-        $locationProvider.html5Mode(true);
-        $locationProvider.hashPrefix('!');
-
-        // fix internet explorer 9
-        $urlRouterProvider.when('', '/');
-
+    function config($urlRouterProvider) {
         // redirect 404 page not found
         $urlRouterProvider.otherwise('/');
     }

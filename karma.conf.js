@@ -18,6 +18,10 @@ module.exports = function (config) {
         'files': [
             'dev/vendors/angular/angular.js',
             'dev/vendors/angular-mocks/angular-mocks.js',
+            'dev/vendors/ionic/release/js/ionic.js',
+            'dev/vendors/ionic/release/js/ionic-angular.js',
+            'dev/vendors/angular-animate/angular-animate.js',
+            'dev/vendors/angular-sanitize/angular-sanitize.js',
             'dev/vendors/angular-translate/angular-translate.js',
             'dev/vendors/angular-translate-loader-partial/angular-translate-loader-partial.js',
             'dev/vendors/ui-router/release/angular-ui-router.js',
