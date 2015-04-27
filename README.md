@@ -1,4 +1,5 @@
 # Cordova Application Structure
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 [![Build Status](https://travis-ci.org/kevinsimard/cordova-app.svg)](https://travis-ci.org/kevinsimard/cordova-app)
 [![Coverage Status](https://coveralls.io/repos/kevinsimard/cordova-app/badge.svg)](https://coveralls.io/r/kevinsimard/cordova-app)
 [![Dependency Status](https://david-dm.org/kevinsimard/cordova-app.svg)](https://david-dm.org/kevinsimard/cordova-app)
