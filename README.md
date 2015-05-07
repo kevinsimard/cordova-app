@@ -3,6 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/kevinsimard/cordova-app/badge.svg)](https://coveralls.io/r/kevinsimard/cordova-app)
 [![Dependency Status](https://david-dm.org/kevinsimard/cordova-app.svg)](https://david-dm.org/kevinsimard/cordova-app)
 [![devDependency Status](https://david-dm.org/kevinsimard/cordova-app/dev-status.svg)](https://david-dm.org/kevinsimard/cordova-app#info=devDependencies)
+[![Code Climate](https://codeclimate.com/github/kevinsimard/cordova-app/badges/gpa.svg)](https://codeclimate.com/github/kevinsimard/cordova-app)
 
 ## Installation
 > This structure utilizes [Npm](https://docs.npmjs.com/getting-started/installing-node) and [Bower](http://bower.io/#install-bower) to manage its dependencies. So, before using it, you will need to make sure you have both of them installed on your machine.
