@@ -23,10 +23,10 @@ module.exports = function (config) {
             'dev/vendors/angular-animate/angular-animate.js',
             'dev/vendors/angular-sanitize/angular-sanitize.js',
             'dev/vendors/angular-translate/angular-translate.js',
-            'dev/vendors/angular-translate-loader-partial/angular-translate-loader-partial.js',
             'dev/vendors/ui-router/release/angular-ui-router.js',
             'dev/vendors/underscore/underscore.js',
-            'dev/app/**/module.js', 'dev/app/**/*.js',
+            'dev/app/**/module.js',
+            'dev/app/**/*.js',
             'test/specs/**/*.js'
         ]
     });

@@ -5,26 +5,15 @@
         .factory('mlang.translate', factory);
 
     factory.$inject = [
-        '$timeout',
         '$translate',
-        '$translatePartialLoader',
         'constants'
     ];
 
-    function factory($timeout, $translate, $translatePartialLoader, constants) {
+    function factory($translate, constants) {
         var locale = constants.locale;
 
-        function has(part) {
-            return $translatePartialLoader.isPartAvailable(part);
-        }
-
-        function add(part) {
-            $translatePartialLoader.addPart(part);
-            $timeout($translate.refresh);
-        }
-
-        function remove(part) {
-            $translatePartialLoader.deletePart(part, true);
+        function get(id, params) {
+            return $translate.instant(id, params);
         }
 
         function setLocale(lang) {
@@ -40,9 +29,7 @@
         }
 
         return {
-            'has': has,
-            'add': add,
-            'remove': remove,
+            'get': get,
             'getLocale': getLocale,
             'setLocale': setLocale
         };
