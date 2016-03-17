@@ -17,7 +17,7 @@
         }
 
         function setLocale(lang) {
-            if (!_.contains(constants.locales, lang)) {
+            if (! _.contains(constants.locales, lang)) {
                 lang = constants.locale;
             }
 
