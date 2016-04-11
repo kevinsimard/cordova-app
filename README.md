@@ -4,7 +4,6 @@
 [![Test Coverage](https://codeclimate.com/github/kevinsimard/cordova-app/badges/coverage.svg)](https://codeclimate.com/github/kevinsimard/cordova-app/coverage)
 [![Dependency Status](https://david-dm.org/kevinsimard/cordova-app.svg)](https://david-dm.org/kevinsimard/cordova-app)
 [![devDependency Status](https://david-dm.org/kevinsimard/cordova-app/dev-status.svg)](https://david-dm.org/kevinsimard/cordova-app#info=devDependencies)
-[![Code Climate](https://codeclimate.com/github/kevinsimard/cordova-app/badges/gpa.svg)](https://codeclimate.com/github/kevinsimard/cordova-app)
 
 ## Installation
 
