@@ -1,15 +1,15 @@
 (function (angular) {
-    'use strict';
+    "use strict";
 
-    angular.module('app')
+    angular.module("app")
         .config(config);
 
     config.$inject = [
-        '$urlRouterProvider'
+        "$urlRouterProvider"
     ];
 
     function config($urlRouterProvider) {
         // redirect 404 page not found
-        $urlRouterProvider.otherwise('/');
+        $urlRouterProvider.otherwise("/");
     }
 })(angular);

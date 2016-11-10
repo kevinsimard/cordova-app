@@ -1,9 +1,9 @@
 (function (angular) {
-    'use strict';
+    "use strict";
 
-    angular.module('app', [
-        'ionic',
-        'ui.router',
-        'mlang'
+    angular.module("app", [
+        "ionic",
+        "ui.router",
+        "mlang"
     ]);
 })(angular);
